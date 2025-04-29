@@ -12,7 +12,7 @@
     "password": {
       "title": "Hasło",
       "type": "string",
-      "editor": "password",
+      "editor": "textfield",
       "description": "Hasło użytkownika"
     }
   },
