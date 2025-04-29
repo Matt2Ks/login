@@ -1,17 +1,18 @@
 {
-  "title": "Logowanie do SingleKey",
+  "title": "Login credentials",
   "type": "object",
   "schemaVersion": 1,
   "properties": {
     "email": {
-      "title": "E-mail",
+      "title": "Email",
       "type": "string",
-      "format": "email"
+      "description": "Adres e-mail użytkownika"
     },
     "password": {
       "title": "Hasło",
       "type": "string",
-      "format": "password"
+      "description": "Hasło użytkownika",
+      "editor": "password"
     }
   },
   "required": ["email", "password"]
