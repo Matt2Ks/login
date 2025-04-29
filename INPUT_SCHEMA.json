@@ -6,13 +6,14 @@
     "email": {
       "title": "Email",
       "type": "string",
+      "editor": "textfield",
       "description": "Adres e-mail użytkownika"
     },
     "password": {
       "title": "Hasło",
       "type": "string",
-      "description": "Hasło użytkownika",
-      "editor": "password"
+      "editor": "password",
+      "description": "Hasło użytkownika"
     }
   },
   "required": ["email", "password"]
